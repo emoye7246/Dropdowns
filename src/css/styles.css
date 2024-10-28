@@ -1,6 +1,86 @@
-body {
+/* *{ 
+    border: 1px solid black;
+} */
+#nav {
+
     display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+#choices{
+
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+#logo {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+/* body */
+
+body {
+
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: blue;
+
+}
+
+#images {
+
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: column;
+    width: 55vw;
+    position: absolute;
+    top: 25vh;
+}
+
+#corasel {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+    /* right: -17vw; */
+    /* scroll-snap-type: x mandatory; */
+    scroll-snap-type: x mandatory;
+    overflow: scroll;
+    width: 23vw;
+}
+
+#corasel::-webkit-scrollbar{
+    display: none;
+}
+
+#drinks {
+    /* border: 1px solid black; */
+    height: 300px;
+    /* width: 200px; */
+    margin: 20px;
+    scroll-snap-align: center;
+    scroll-padding-right: 50px;
+}
+
+#next {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 75vh;
+
 }

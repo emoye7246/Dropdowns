@@ -16,7 +16,7 @@
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    background-color: blue;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://dropdowns/./src/css/styles.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/* *{ \n    border: 1px solid black;\n} */\n#nav {\n\n    display: flex;\n    flex-direction: row;\n    width: 100vw;\n    justify-content: space-between;\n    height: 50px;\n    align-items: center;\n}\n\n#choices{\n\n    display: flex;\n    flex-direction: row;\n    width: 200px;\n    justify-content: space-evenly;\n}\n\n#logo {\n\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n    margin-left: 20px;\n}\n\n/* body */\n\nbody {\n\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n\n}\n\n#images {\n\n    flex-direction: column;\n    display: flex;\n    align-items: center;\n    justify-content: column;\n    width: 55vw;\n    position: absolute;\n    top: 25vh;\n}\n\n#corasel {\n\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    /* justify-content: center; */\n    position: relative;\n    /* right: -17vw; */\n    /* scroll-snap-type: x mandatory; */\n    scroll-snap-type: x mandatory;\n    overflow: scroll;\n    width: 23vw;\n}\n\n#corasel::-webkit-scrollbar{\n    display: none;\n}\n\n#drinks {\n    /* border: 1px solid black; */\n    height: 300px;\n    /* width: 200px; */\n    margin: 20px;\n    scroll-snap-align: center;\n    scroll-padding-right: 50px;\n}\n\n#next {\n\n    display: flex;\n    flex-direction: column;\n    position: relative;\n    top: 75vh;\n\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://dropdowns/./src/css/styles.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -136,7 +136,29 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   hello: () => (/* binding */ hello)\n/* harmony export */ });\n/* harmony import */ var _Users_elijahmoye_Desktop_dropdown_Dropdowns_src_css_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/css/styles.css */ \"./src/css/styles.css\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nfunction hello(){\n    \n}\nconsole.log('hello')\n\n\n\n\n//# sourceURL=webpack://dropdowns/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Users_elijahmoye_Desktop_dropdown_Dropdowns_src_css_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/css/styles.css */ \"./src/css/styles.css\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _java_carosel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./java/carosel */ \"./src/java/carosel.js\");\n/* harmony import */ var _Users_elijahmoye_Desktop_dropdown_Dropdowns_src_images_iced_Latte_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/images/iced_Latte.jpg */ \"./src/images/iced_Latte.jpg\");\n\n\n\n\n\n\nlet icedLatte = new _java_carosel__WEBPACK_IMPORTED_MODULE_2__.createImage(_Users_elijahmoye_Desktop_dropdown_Dropdowns_src_images_iced_Latte_jpg__WEBPACK_IMPORTED_MODULE_3__, 'Iced Latte', 'Starbucks Drinks')\nicedLatte.createDisplay()\n\nlet icedLattes = new _java_carosel__WEBPACK_IMPORTED_MODULE_2__.createImage(_Users_elijahmoye_Desktop_dropdown_Dropdowns_src_images_iced_Latte_jpg__WEBPACK_IMPORTED_MODULE_3__, 'Iced Lattes', 'Starbucks')\nicedLattes.createDisplay()\n\nlet icedLattess = new _java_carosel__WEBPACK_IMPORTED_MODULE_2__.createImage(_Users_elijahmoye_Desktop_dropdown_Dropdowns_src_images_iced_Latte_jpg__WEBPACK_IMPORTED_MODULE_3__, 'Iced Lattes', 'Starbcks')\nicedLattess.createDisplay()\n\n\n//# sourceURL=webpack://dropdowns/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/java/carosel.js":
+/*!*****************************!*\
+  !*** ./src/java/carosel.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createImage: () => (/* binding */ createImage)\n/* harmony export */ });\n\n\nlet images = []\nlet slides = 0\n\nclass createImage {\n\n    constructor(image, name, description){\n\n        this.image = image, \n        this.name = name, \n        this.description = description\n\n    }\n\n    createDisplay(){\n\n        let pushMe = {\n\n            image: this.image,\n\n            name: this.name,\n\n            description: this.description\n        }\n\n        images.push(pushMe)\n                \n\n        this.displayArray()\n\n    }\n\n    displayArray(){\n\n        images.forEach((element) => {\n\n            let corasel = document.getElementById('corasel')\n    \n            let store = document.createElement('div')\n            store.id = 'drinks'\n    \n            let myImage = document.createElement('img')\n            myImage.src = `${element.image}`\n            myImage.style.height = '200px'\n            myImage.style.width = '200px'\n            myImage.style.border = '1px solid black'\n\n    \n            let myName = document.createElement('div')\n            myName.innerHTML = `${element.name}`\n    \n            let myDescription = document.createElement('div')\n            myDescription.innerHTML = `${element.description}`\n    \n            store.append(myImage, myName, myDescription)\n            corasel.append(store)\n\n        })\n\n\n    }\n\n\n}\n\n\n//# sourceURL=webpack://dropdowns/./src/java/carosel.js?");
+
+/***/ }),
+
+/***/ "./src/images/iced_Latte.jpg":
+/*!***********************************!*\
+  !*** ./src/images/iced_Latte.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"dd705dcd26bd242afddf.jpg\";\n\n//# sourceURL=webpack://dropdowns/./src/images/iced_Latte.jpg?");
 
 /***/ })
 
@@ -229,6 +251,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
